@@ -1,0 +1,144 @@
+
+nav #navigation{
+    float: right;
+    margin: 50px 50px 10px;
+    padding-top: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+}
+nav ul li{
+    list-style-type: none;
+    display: inline;
+    padding: 15px;
+    border-color: white;
+    border-style: solid;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+body{
+    background-image:  linear-gradient(68deg, rgba(0, 0, 0, 0), rgb(26, 26, 27)) ,
+    url('images/computer_plants.jpg');
+    background-color: rgb(34, 34, 34);
+    background-position: 130x;
+    color: white;
+     text-decoration: none;
+     background-size: 195%;
+     backdrop-filter: blur(10px) grayscale(0.5);   
+}
+#opener{
+    background-size: center;
+  text-align: left;
+  text-decoration: none;
+  margin-left: 5px;
+  padding: 200px 30px 30px;
+}
+#center{
+    padding: 50px 30px 20px;
+}
+#headshot{
+    padding: -40px 30px 20px;  
+}
+footer{
+    padding: 40px 30px 20px;
+}
+
+#containertop{
+    margin-top: 1px;
+    padding-top: 10px;
+    text-decoration: none;
+}
+#foreground{
+    background: linear-gradient(68deg, rgba(0, 0, 0, 0), rgba(37, 38, 43, 0.747));
+}
+#opener p a{
+     
+    color: rgb(201, 199, 199);
+}
+#bodycontainer h2 a{
+    color: rgb(201, 199, 199);
+    text-decoration: none;
+
+}
+#bodycontainer h3 a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 30pt;
+
+}
+nav #socialmedia{
+    margin-top: 100px;
+    margin-bottom: 50px;;
+    float: right;
+}
+#image1{
+    padding: 50px 30px 20px 200px;
+}
+body p{
+    padding-top: 25px;
+    padding-bottom: 30px;
+    font: size 6px;
+}
+#opener h2{
+    font-size: 35pt;
+}
+#socials ul li a{
+    padding-top: 20px;
+    color: white;
+      text-decoration: none;
+ }
+ legend{ 
+    border-color: white;
+    border-style: solid;
+    border-radius: 10px;
+    padding: 5px 10px;
+ }
+ input {
+    margin: 3px;
+    border-radius: 4px;
+    border-color: thistle;
+    color: grey;
+ }
+ textarea{
+    margin: 3px;  
+    border-radius: 4px;
+    color: grey;
+ }
+  #submitbutton{
+    transition-duration: 0.4s;
+    border-radius: 5px;
+    background-color: #2d463e;
+    color: white;
+  }
+  
+  #submitbutton:hover {
+    background-color: rgb(195, 236, 223);
+    color: rgb(55, 58, 54);
+  }
+#profilepic img{
+    max-height: 300px;
+    padding-bottom: 80px;
+}
+fieldset{
+    border-width: 3px;
+    border-style: solid;
+    border-color: thistle;
+}
+
+p>label{
+    display:block;
+}
+#resume {
+    display:flex;
+    flex-direction:row;
+      text-align: center;
+}
+#resumebody{
+
+margin-top: 50px;
+}
